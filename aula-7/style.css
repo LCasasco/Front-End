@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+
+
+*{
+    font-family: 'Source Code Pro', monospace;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.banner{
+    background-image: url(/front-end/primeiro-bimestre/aula-7/sonocomputer.jpg);
+    width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.messageVisible {
+    display: block;
+
+}
+
+.buttonSumiu {
+    width: 150px;
+    height: 25px;
+    border-radius: 10px;
+    background-color:brown;
+    text-transform: lowercase;
+    margin-top: 2%;
+}
+
+p {
+    padding-top: 2%;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: whitesmoke;
+    display: none;
+}
+
+
+
+h1 {
+    
+}
+
+h2 {
+    text-transform: uppercase;
+    
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    background-color:tomato;
+    text-transform: lowercase;
+    margin-top: 2%;
+}
+
