@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family:monospace;
+    position: relative;
+    left: 50px;
+  }
+
+  h1{
+      font-size: 60px;
+  }
+    
+  
+  
+  .pombo img {
+    position: fixed;
+    top: 70px;
+    right: calc(50% - 50px);
+    height: 100px;
+  }
+
+  .pomboGrande img {
+    position: fixed;
+    right: 25px;
+    height: 500px;
+  }
+
+  .divPombo{
+      text-align: center;
+      margin-top: 25px;
+  }
