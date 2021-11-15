@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Roboto+Mono:wght@100&display=swap');
+
+html * {
+    /* INSERIR COR EM TODOS OS ELEMENTOS */
+    color: white;
+    /* RESET CSS */
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    background-color: #808080bb;
+}
+
+body {
+    background-image: url("https://cdn6.campograndenews.com.br/uploads/noticias/2021/06/14/16b20039e8c5d44ab9bcd7f0389657c84d198545.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    text-align: right;
+    padding: 20px;
+}
+
+#titulo {
+    color: white;
+    text-align: center;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 52px;
+    font-weight: bold;
+    background-color:cornflowerblue;
+    padding: 10px;
+}
+
+#subtitulo {
+    color: white;
+    text-align: center;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 25px;
+    background-color:cornflowerblue;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-weight: 200;
+}
+
+
+#resumo {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 16px;
+    color: white ;
+}
+
+#curiosidades {
+    color: white;
+    text-align: left;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 32px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: cornflowerblue;
+      
+}
+
+ul {
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    position: relative;
+    list-style: none;
+}
+
+.insta {
+    background-color: cornflowerblue;
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+}
