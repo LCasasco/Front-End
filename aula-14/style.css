@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Roboto+Mono:wght@100;400;700&display=swap');
+
+/* font-family: 'Cutive Mono', monospace;
+font-family: 'Roboto Mono', monospace; */
+
+
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-template-areas: 
+    "main-header main-header"
+    "main-aside main-content"
+}
+
+header{
+    padding-left: 250px;
+    grid-area: main-header;
+    height: 125px;
+    background-color: #CEC9C3;
+}
+
+header h1{
+    position: absolute;
+    text-shadow: 1px 2px #ebebd3ff;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    text-transform: uppercase;
+    color: #30323B;
+    font-size: 110px;
+}
+
+header img{
+    height: 80px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -220px;  
+}
+
+header p{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -220px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+main {
+    grid-area: main-content;
+    text-align: center;
+    background-color: #4D3D32;
+}
+
+main img{
+    padding-top: 20px;
+    width: 750px;
+}
+
+main p{
+    padding-top: 20px;
+    padding-left: 10%;
+    width: 1000px;
+    text-align: left;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: #cec9c3;
+    padding-bottom: 20px;
+}
+
+aside{
+    padding-left: 20px;
+    padding-top: 20px;
+    grid-area: main-aside;
+    background-color: #7C5026;
+    
+
+}
+
+aside li{
+    list-style-type: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 25px;
+    background-color: #A5824A;
+    color: #CEC9C3;
+    width: 98%;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px #30323B;
+}
