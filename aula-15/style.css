@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Roboto+Mono:wght@100;400;700&display=swap');
+
+/* font-family: 'Cutive Mono', monospace;
+font-family: 'Roboto Mono', monospace; */
+
+
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    grid-template-areas: 
+    'header header'
+    'main-content aside';
+}
+
+body a{
+    text-decoration: none;
+}
+
+header{
+    grid-area: header;
+    height: 50px;
+    width: 100%;
+    background-color: #12194A;
+    
+}
+
+header h1{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center; 
+}
+
+main{
+    color: #FFFFFF;
+    grid-area: main-content;
+    background-color: #393E8F;
+    text-align: left;
+}
+
+main .main-video{
+    background-color: #393E8F;
+    padding: 20px;
+}
+
+main .main-video p{
+    padding-top: 1em;
+}
+
+aside{
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    background-color: #393E8F;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+aside .section-playlist{
+    
+}
+
+aside .texto-videos{
+    padding-left: 0.5em;
+}
+
+aside .texto-videos h1{
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+aside .texto-videos h2{
+    color: white;
+    font-size: 0.7em;
+    font-weight: normal;
+}
+
+aside .texto-videos h3{
+    color:#F3CC64;
+    font-size: 0.8em;
+}
+
+aside .texto-videos p{
+    color:#EFBEB7;
+    font-size: 0.6em;
+}
+
+aside .video img{
+    max-width: 200px;
+
+}
+
+aside .texto-videos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside .video {
+    display: flex;    
+}
+
+aside .section-playlist{
+    display: flex;
+}
+
+
+
+
+
+/* #F3CC64
+B12228
+EFBEB7
+12194A
+FFFFFF */
